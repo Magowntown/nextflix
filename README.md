@@ -1,7 +1,7 @@
 # Nextflix
 Launch Academy - Final Project
 
-#Brief Description
+# Brief Description
 
 Nextflix is for those who find themselves sitting next to a friend, family, or significant other,
 and want to watch something together. But in your personal experience, the conversation always seems
