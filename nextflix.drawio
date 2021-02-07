@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-07T22:44:00.700Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="BuKYvCIqBuCrukT0s9fd" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-07T22:52:08.866Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="STV99pYfhzYfGTmBXZIl" version="14.2.9" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="981" dy="1376" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="1746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,8 +49,14 @@
         <mxCell id="qJOCWNJ0af0QhHKa3J0w-81" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;Matched Movies&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;matchId&lt;/td&gt;&lt;td&gt;uniqueId&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;favId&lt;/td&gt;&lt;td&gt;foreignKey&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;userId&lt;br&gt;matchedMovies&lt;br&gt;unMatched?&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;foreignKey&lt;br&gt;string&lt;br&gt;string&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="320" width="180" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="qJOCWNJ0af0QhHKa3J0w-83" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="-455" width="340" height="175" as="geometry" />
+        <mxCell id="qJOCWNJ0af0QhHKa3J0w-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="qJOCWNJ0af0QhHKa3J0w-83" target="qJOCWNJ0af0QhHKa3J0w-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qJOCWNJ0af0QhHKa3J0w-83" value="User Stories:&lt;br&gt;&lt;ul&gt;&lt;li&gt;Users can view movies&lt;/li&gt;&lt;li&gt;Users can view via attributes of title, genre, actor, etc&lt;/li&gt;&lt;li&gt;Users can cycle through choices to select as &quot;want to watch.&quot;&lt;/li&gt;&lt;li&gt;This will create a favorite list for the user&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-460" width="300" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="qJOCWNJ0af0QhHKa3J0w-84" value="User Stories:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="440" y="-460" width="300" height="155" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
