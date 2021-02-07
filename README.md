@@ -1,2 +1,2 @@
-# nextflix
+# Nextflix
 Launch Academy - Final Project
