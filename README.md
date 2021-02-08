@@ -18,8 +18,41 @@ which has now taken movies out of the options due to your time constraints of be
 Anyways, Nextflix is an app that saves you the trouble of that akward 30-60min of decesion making that could have
 been spent actually enjoying a cinematic masterpiece.
 
-With Nextflix users can coast through thousands of shows and movies which they can favorite as, "want to watch." When 
+With Nextflix users can coast through thousands of shows and movies from an API which they can favorite as, "want to watch." When 
 the user is ready with their options, they can then compare with a mutual connection/user and voila! Nextflix, will
 tell you that both matched as intersted in watching these specific shows/movies that you both, "want to watch."
 
 So save yourself some time and frustration by downloading this app.
+
+# Authors:
+- Andrew Magown
+
+# Technologies:
+
+- Express.js
+- Node.js
+- React.js
+- Javascript.js
+- Passport.js
+- PostgreSQL
+- Objection.js
+- Knex.js
+- External NSP API
+- Foundation & CSS.
+
+# Features:
+
+- Coming soon
+
+# Instructions:
+
+Coming soon!
+
+# GitHub Repository:
+
+https://github.com/Magowntown/nextflix/tree/main
+
+# Heroku Link: 
+
+https://nextflix-project.herokuapp.com/
+
