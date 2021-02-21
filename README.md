@@ -50,9 +50,9 @@ Coming soon!
 
 # GitHub Repository:
 
-https://github.com/Magowntown/nextflix/tree/main
+[Vist the app's github here!](https://github.com/Magowntown/nextflix/tree/main)
 
 # Heroku Link: 
 
-https://nextflix-project.herokuapp.com/
+[Visit the app here!](https://nextflix-project.herokuapp.com/)
 
