@@ -12,6 +12,4 @@ unogsRouter.get("/", async (req, res) => {
   }
 });
 
-
-
 export default unogsRouter;

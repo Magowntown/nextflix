@@ -15,10 +15,14 @@ const SelectedMedia = (props) => {
     runtime: ""
   });
 
+  debugger;
+
   const getMedia = async () => {
-    const mediaId = props.match.params.id;
+    // debugger;
+    // const mediaId = props.match.params.id;
     try {
-      const response = await fetch("/api/v1/media");
+      const response = await fetch(`/api/v1/media`);
+      debugger;
       if (!response.ok) {
         const errorMessage = `${response.status} (${response.statusText})`;
         const error = new Error(errorMessage);
@@ -36,7 +40,7 @@ const SelectedMedia = (props) => {
 
   return(
     <div className="showpage_container">
-      {/* <div className="showpage_column">
+      <div className="showpage_column">
         <div className="media_preview">
             <img src={media.image} />
             <h3>{media.title}</h3>
@@ -49,7 +53,7 @@ const SelectedMedia = (props) => {
             <p>{media.released}</p>
             <p>{media.runtime}</p>
         </div>
-      </div> */}
+      </div>
     </div>
   )
 }

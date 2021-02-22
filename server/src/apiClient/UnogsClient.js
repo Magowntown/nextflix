@@ -3,6 +3,7 @@ import config from "../config.js"
 
 const unogsKey = config.unogsKey.secret
 
+
 class UnogsClient {
   static async getMediaData() {
     try {
@@ -21,9 +22,9 @@ class UnogsClient {
     }
   }
 
-  static async getMediaId() {
+  static async getMediaId(mediaId) {
     try {
-     const response = await fetchmediaId(`https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?t=loadvideo&q=${mediaId}`, {
+    const response = await fetch(`https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?t=loadvideo&q=${mediaId}`, {
       "method": "GET",
       "headers": {
         "x-rapidapi-key": unogsKey,
@@ -31,8 +32,8 @@ class UnogsClient {
       }
     })
       const unogsData = await response.json();
-      const mediaArray = unogsData.ITEMS;
-      return mediaArray;
+      const detailsArray = unogsData.RESULTS;
+      return detailsArray;
     } catch(error) {
       return { error: error.message }
     }

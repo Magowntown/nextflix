@@ -3,9 +3,23 @@ import { Link, Redirect, Route, useParams, withRouter } from "react-router-dom";
 
 const MediaCard = (props) => {
   const {netflixid, image, title, synopsis, avgrating, type} = props.mediaDetails;
+  const [mediaDetails, setMediaDetails] = useState({})
+
+  const onClick = () => {
+    setMediaDetails(netflixid)
+    return (
+      <Redirect 
+        to={{ 
+          pathname: `/media/${netflixid}`,
+          state: { mediaDetails: mediaDetails }
+        }}
+
+      />
+    )
+  }
   
   return (
-    <div className="card_container">
+    <div onClick={onClick} className="card_container">
         <Link to={`/media/${netflixid}`}>
           <img className="card_img" src={image} alt="movie poster" />
         </Link>
