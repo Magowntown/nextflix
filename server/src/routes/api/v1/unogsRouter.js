@@ -12,4 +12,15 @@ unogsRouter.get("/", async (req, res) => {
   }
 });
 
+unogsRouter.get("/:id", async (req, res) => {
+  try {
+    console.log('HURRO?')
+
+    const titleDetails = await UnogsClient.detailsArray();
+    res.status(200).json({ titleDetails: titleDetails })
+  } catch (error) {
+    res.status(500).json({ error: error })
+  }
+});
+
 export default unogsRouter;

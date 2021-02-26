@@ -15,14 +15,14 @@ const SelectedMedia = (props) => {
     runtime: ""
   });
 
-  debugger;
 
-  const getMedia = async () => {
-    // debugger;
-    // const mediaId = props.match.params.id;
+
+  const getMedia = async (props) => {
+
+    const mediaId = "81345798";
+    console.log('media', mediaId)
     try {
-      const response = await fetch(`/api/v1/media`);
-      debugger;
+      const response = await fetch(`/${mediaId}`);
       if (!response.ok) {
         const errorMessage = `${response.status} (${response.statusText})`;
         const error = new Error(errorMessage);

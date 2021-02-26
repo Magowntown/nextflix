@@ -26,7 +26,7 @@ const MediaList = (props) => {
     getMedia();
   }, []);
 
-  const mediaCards = media.map((mediaItem) => {
+  const mediaCards = media.map(mediaItem => {
     return (
       <MediaCard
         key={`${mediaItem.netflixid}`}

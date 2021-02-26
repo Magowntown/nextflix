@@ -10,9 +10,9 @@ rootRouter.use("/", clientRouter);
 
 rootRouter.use("/api/v1/user-sessions", userSessionsRouter);
 rootRouter.use("/api/v1/users", usersRouter);
-
 rootRouter.use("/api/v1/unogs", unogsRouter);
 rootRouter.use("/api/v1/media", mediaRouter);
+// rootRouter.use("/api/v1/media/:id", mediaRouter);
 
 
 export default rootRouter;
